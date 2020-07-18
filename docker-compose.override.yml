@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  dockerizedblazor:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Local
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+    ports:
+      - "44343:443"
+      - "8080:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ./DockerizedBlazor:/app

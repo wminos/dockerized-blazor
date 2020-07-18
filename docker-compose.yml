@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  dockerizedblazor:
+    container_name: dockerizedblazor
+    image: ${DOCKER_REGISTRY-}dockerizedblazor
+    build:
+      context: .
+      dockerfile: DockerizedBlazor/Dockerfile

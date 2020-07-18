@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerizedBlazor", "DockerizedBlazor\DockerizedBlazor.csproj", "{95897277-D587-4067-8E51-3A2B17607669}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EB3EB173-CFF0-4230-B237-2F1F18946861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95897277-D587-4067-8E51-3A2B17607669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95897277-D587-4067-8E51-3A2B17607669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95897277-D587-4067-8E51-3A2B17607669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95897277-D587-4067-8E51-3A2B17607669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3EB173-CFF0-4230-B237-2F1F18946861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3EB173-CFF0-4230-B237-2F1F18946861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3EB173-CFF0-4230-B237-2F1F18946861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3EB173-CFF0-4230-B237-2F1F18946861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {257771E6-2DC6-4EAD-8847-11F5294F159E}
+	EndGlobalSection
+EndGlobal
